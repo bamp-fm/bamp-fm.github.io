@@ -1,53 +1,16 @@
 <!DOCTYPE html>
-<html lang=“en-DE”>
-<title>BAMP.FM</title>
-	<link rel="stylesheet" href="/blockrain/blockrain.css">
-
-<link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Gugi';
-	font-size: 22px;
-	color:dodgerblue;
-	Background-color:rgb(254,245,2);
-	text-align:center;
-	text-decoration:none;
-}
-p {font-family: 'Gugi';
-	font-size: 20px;
-	color:dodgerblue;
-	text-align:center;
-	text-decoration:none;
-}
-p1 {font-family: 'Gugi';
-	font-size: 26px;
-	letter-spacing: 3px;
-	line-height: 0.4;
-	color:dodgerblue;
-	text-align:center;
-	text-decoration:none;
-}
-p2 {
-font-family: 'Gugi';
-	font-size: 50px;
-	letter-spacing: -8px;
-	color:dodgerblue;
-	text-align:center;
-	text-decoration:none;
-}
-</style>
-<body>
-<img src="/images/bamp-logo-web.jpg" alt="Bamp logo" style="width:487px;height:150px;">
-<br><br>
-<p2>Broadcast At My Place</p2>
-<br>
-<br>
-<br>
-<iframe src="https://demo.azuracast.com/public/azuratest_radio/embed" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>
-<p><b>Coming soon</b></p>
-<br>
-	<div class="game" style="width:250px; height:500px;">
-		<section id = "examples">
+<html>
+   <head>
+      <meta charset = "utf-8" />
+      <link href = 'https://fonts.googleapis.com/css?family=Play:400,700' 
+         rel = 'stylesheet' type = 'text/css'>
+      <link rel = "stylesheet" href = "assets/css/style.css">
+      <link rel = "stylesheet" href = "src/blockrain.css">
+   </head>
+	
+   <body>
+	
+      <section id = "examples">
         <article id = "example-slider">
 			
             <div class = "example">
@@ -67,9 +30,10 @@ font-family: 'Gugi';
          </article>
       </section>
 		
-    
-      <script src = "blockrain/blockrain.jquery.min.js"></script>
-      <script src = "blockrain/blockrain.jquery.js"></script>
+      <script src = "assets/js/jquery-1.11.1.min.js"></script>
+      <script src = "src/blockrain.jquery.libs.js"></script>
+      <script src = "src/blockrain.jquery.src.js"></script>
+      <script src = "src/blockrain.jquery.themes.js"></script>
 
       <script>
          var $cover = $('#cover-tetris').blockrain({
@@ -142,12 +106,6 @@ font-family: 'Gugi';
             $('#example-slider .theme strong').text( '"'+themes[currentIx]+'"' );
          }
       </script>
-	</div>
-<br>
-<br>
-<p><a href=“mailto:artpimp.berlin@gmail.com”>contact</a></p>
-	
-	
-
-</body>
+      
+   </body>
 </html>
